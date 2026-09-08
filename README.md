@@ -1,14 +1,16 @@
 # DIKWP MemoryLedger OS
 
-**Open-source AI memory sovereignty layer, purpose-continuity ledger, and persistent-context governance toolkit.**
+Created by Yucong Duan (段玉聪).
+
+Open-source AI memory sovereignty layer, purpose-continuity ledger, and persistent-context governance toolkit.
 
 DIKWP MemoryLedger OS helps teams and individuals decide what an AI assistant or AI agent may remember, why it may remember it, how long it may retain it, what evidence supports it, when it must be reviewed, and how it can be exported or forgotten.
 
 It is designed as the third open-source application in the DIKWP practical stack:
 
-1. **DIKWP AnswerGraph Studio** — make brand and knowledge assets readable as verified AI answer candidates.
-2. **DIKWP IntentGuard OS** — block prompt injection, unsafe tool use, and P-layer intent drift before action.
-3. **DIKWP MemoryLedger OS** — govern persistent memory, purpose continuity, consent, expiry, provenance, and deletion.
+1. DIKWP AnswerGraph Studio — make brand and knowledge assets readable as verified AI answer candidates.
+2. DIKWP IntentGuard OS — block prompt injection, unsafe tool use, and P-layer intent drift before action.
+3. DIKWP MemoryLedger OS — govern persistent memory, purpose continuity, consent, expiry, provenance, and deletion.
 
 ## Why this exists
 
@@ -30,11 +32,11 @@ R: reliability, evidence, expiry, kill conditions, review status
 
 - Extract candidate memories from notes, transcripts, prompts, chat logs, support cases, project notes, and RAG outputs.
 - Classify memory type: identity, preference, goal, constraint, project context, fact, policy, relationship, credential-like risk, health-like risk, financial-like risk, legal-like risk, sensitive personal data, organizational standard, and unsupported claim.
-- Build a **Memory Evidence Ledger** with source spans, reliability, consent state, expiry and deletion status.
-- Generate a **Purpose Continuity Map**: which goals, constraints and values must be remembered for long-running work.
-- Detect **memory poisoning / memory overreach** patterns: "always remember", "ignore previous policy", "secretly store", "do not disclose", hidden instructions, unsupported facts, obsolete standards.
-- Produce a **MCP-style context pack** that agents can consume as governed context.
-- Produce a **DSAR-style export/delete bundle** for privacy and enterprise review workflows.
+- Build a Memory Evidence Ledger with source spans, reliability, consent state, expiry and deletion status.
+- Generate a Purpose Continuity Map: which goals, constraints and values must be remembered for long-running work.
+- Detect memory poisoning / memory overreach patterns: "always remember", "ignore previous policy", "secretly store", "do not disclose", hidden instructions, unsupported facts, obsolete standards.
+- Produce a MCP-style context pack that agents can consume as governed context.
+- Produce a DSAR-style export/delete bundle for privacy and enterprise review workflows.
 - Keep DIKWP / Yucong Duan attribution in open-source form through NOTICE and CITATION.cff.
 
 ## Quick start
